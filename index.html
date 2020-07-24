@@ -13,6 +13,12 @@
     <link href="css/style.css" rel="stylesheet"> 
     <link href="css/animation.css" rel="stylesheet"> 
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- implementación del swipe -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- implementación del swipe -->    
 <!--     
     <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet"> 
@@ -108,30 +114,75 @@
 
   <div class="container marketing">  
     <!-- ============================== Seccion Info Gral ============================== --> 
-    <!--<div class="row fadeIn">
+<!--     <div class="row fadeIn">
       <div class="col-lg-3 text-center">        
-        <img class="rounded-circle" width="140" height="140" src="img/indexCarousel/c1.png">
+        <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c1.png">
         <h2>Showroom</h2>
         <p>Vedia 75 1ro D. <br> Lunes a Sábados de 17 a 21 hs.</p>        
       </div>
       <div class="col-lg-3 text-center">        
-        <img class="rounded-circle " width="140" height="140" src="img/indexCarousel/c5.png">
+        <img class="rounded-circle " width="140" height="140" src="img/indexBody/circle/c5.png">
         <h2>Envíos</h2>
         <p>Hacemos envíos a todo el país a través de correo Argentino.</p>
       </div>
       <div class="col-lg-3 text-center">  
-        <img class="rounded-circle " width="140" height="140" src="img/indexCarousel/c6.png">
+        <img class="rounded-circle " width="140" height="140" src="img/indexBody/circle/c6.png">
         <h2>Formas de pago</h2>
         <p>Aceptamos Mercado Pago, Todo Pag y Tarjetas de Créditos.</p>
       </div>
       <div class="col-lg-3 text-center">  
-        <img class="rounded-circle " width="140" height="140" src="img/indexCarousel/c4.png">
+        <img class="rounded-circle " width="140" height="140" src="img/indexBody/circle/c4.png">
         <h2>Gift Voucher</h2>
         <p>Necesitas hacer un regalo.</p>
       </div>
-    </div> 
+    </div>  -->
 
-    <hr class="featurette-divider">-->
+      <!-- swiper -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="text-center mb-3"> 
+                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c1.png">              
+              </div>
+              <div class="text-center">  
+                <h2>Showroom</h2>
+                <p>Vedia 75 1ro D. <br> Lunes a Sábados de 17 a 21 hs.</p> 
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center mb-3"> 
+                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c5.png">              
+              </div>
+              <div class="text-center">  
+                <h2>Envíos</h2>
+                <p>Hacemos envíos a todo el país <br> a través de correo Argentino.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center mb-3"> 
+                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c6.png">              
+              </div>
+              <div class="text-center">  
+                <h2>Formas de pago</h2>
+                <p>Aceptamos Mercado Pago, <br>Todo Pag y Tarjetas de Créditos.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center mb-3"> 
+                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c4.png">              
+              </div>
+              <div class="text-center">  
+                <h2>Gift Voucher</h2>
+                <p>Necesitas hacer un regalo.</p>
+              </div>
+            </div>                     
+
+        </div>
+      </div>    
+
+    <hr class="featurette-divider">
     <!-- ============================== Seccion Info Gral ============================== -->
 
     <!-- ============================== Seccion Joyas ============================== -->
@@ -145,7 +196,7 @@
       </div>      
       <div class="col-md-6 carousel-inner fadeRight">
           <div class="carousel-item active">
-            <a href="opcionB.html"><img class="img-fluid mx-auto d-block w-100 featurette_img  fadeOut" width="500" height="500" src="img/indexBody/square/square1.png"></a>
+            <a href=""><img class="img-fluid mx-auto d-block w-100 featurette_img  fadeOut" width="500" height="500" src="img/indexBody/square/square1.png"></a>
           </div>
           <!-- <div class="carousel-item">
             <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square1A.png"></a>
@@ -313,5 +364,41 @@
       -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="js/bootstrap.bundle.js"></script>
+<!-- agregados -->
+      <script src="js/jquery-migrate-3.0.0.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.stellar.min.js"></script>
+      <script src="js/jquery.animateNumber.min.js"></script>  
+      <script src="js/main.js"></script> 
+      <!-- Para hacer funcionar el swiper -->     
+      <script>
+        var mySwiper = new Swiper('.swiper-container', {
+        speed: 50,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        efect:"slide",
+          breakpoints: {
+          '320': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          '480': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          '800': {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          }}
+      }); /*Tranisition effect. Could be "slide", "fade", "cube", "coverflow" or "flip"*/
+        
+        var mySwiper = document.querySelector('.swiper-container').swiper
+    
+        // Now you can use all slider methods like
+        mySwiper.slideNext();
+      </script>
 </body>
 </html>
