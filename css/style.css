@@ -120,7 +120,49 @@ body {
   height: 10px;
   background-color: white;
 }
+/*--------------------------- square -----------------------------*/
+.overlay{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);  
+}
 
+
+.overlay h2{
+  color: white;
+  
+  letter-spacing: 0.1rem;
+  font-size: 4rem;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+
+.btn-sawa{
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.5rem 1.3rem;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  border-radius: 2rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+
+}
 
 
 /* RESPONSIVE CSS

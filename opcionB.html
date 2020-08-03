@@ -13,12 +13,6 @@
     <link href="css/style.css" rel="stylesheet"> 
     <link href="css/animation.css" rel="stylesheet"> 
     <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- implementación del swipe -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- implementación del swipe -->    
 <!--     
     <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet"> 
@@ -63,10 +57,10 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
         </li> -->
       </ul>
-      <!-- <form class="form-inline mt-2 mt-md-0">
+      <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form> -->
+      </form>
     </div>
   </nav>
 </header>
@@ -85,11 +79,13 @@
             <img class="carousel-img" src="img/indexCarousel/Carousel1.png"> 
            </section>
         </div>
+
         <div class="carousel-item">
           <section>
             <img class="carousel-img" src="img/indexCarousel/Carousel2.png">
           </section>
         </div>
+
         <div class="carousel-item">
           <section>
             <img class="carousel-img" src="img/indexCarousel/Carousel3.png">
@@ -97,14 +93,14 @@
         </div>
       </div>
 
-<!--       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a> -->
+      </a>
     </div>
   </div>
 
@@ -112,51 +108,28 @@
 
   <div class="container marketing">  
     <!-- ============================== Seccion Info Gral ============================== --> 
-
-      <!-- swiper -->
-      <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <div class="text-center mb-3"> 
-                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c1.png">              
-              </div>
-              <div class="text-center">  
-                <h2>Showroom</h2>
-                <p>Vedia 75 1ro D. <br> Lunes a Sábados de 17 a 21 hs.</p> 
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="text-center mb-3"> 
-                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c5.png">              
-              </div>
-              <div class="text-center">  
-                <h2>Envíos</h2>
-                <p>Hacemos envíos a todo el país <br> a través de correo Argentino.</p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="text-center mb-3"> 
-                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c6.png">              
-              </div>
-              <div class="text-center">  
-                <h2>Formas de pago</h2>
-                <p>Aceptamos Mercado Pago, <br>Todo Pag y Tarjetas de Créditos.</p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="text-center mb-3"> 
-                <img class="rounded-circle" width="140" height="140" src="img/indexBody/circle/c4.png">              
-              </div>
-              <div class="text-center">  
-                <h2>Gift Voucher</h2>
-                <p>Necesitas hacer un regalo.</p>
-              </div>
-            </div>                     
-
-        </div>
-      </div>    
+    <div class="row fadeIn">
+      <div class="col-lg-3 text-center">        
+        <img class="rounded-circle" width="140" height="140" src="img/indexCarousel/c1.png">
+        <h2>Showroom</h2>
+        <p>Vedia 75 1ro D. <br> Lunes a Sábados de 17 a 21 hs.</p>        
+      </div>
+      <div class="col-lg-3 text-center">        
+        <img class="rounded-circle " width="140" height="140" src="img/indexCarousel/c5.png">
+        <h2>Envíos</h2>
+        <p>Hacemos envíos a todo el país a través de correo Argentino.</p>
+      </div>
+      <div class="col-lg-3 text-center">  
+        <img class="rounded-circle " width="140" height="140" src="img/indexCarousel/c6.png">
+        <h2>Formas de pago</h2>
+        <p>Aceptamos Mercado Pago, Todo Pag y Tarjetas de Créditos.</p>
+      </div>
+      <div class="col-lg-3 text-center">  
+        <img class="rounded-circle " width="140" height="140" src="img/indexCarousel/c4.png">
+        <h2>Gift Voucher</h2>
+        <p>Necesitas hacer un regalo.</p>
+      </div>
+    </div>
 
     <hr class="featurette-divider">
     <!-- ============================== Seccion Info Gral ============================== -->
@@ -167,12 +140,12 @@
 
     <div class="row featurette carousel" data-ride="carousel" data-pause="false"> 
       <div class="col-md-6 fadeIn">
-        <!-- <h2 class="featurette-heading text-right">Aros <span class="text-muted">It’ll blow your mind.</span> </h2>
-        <p class="lead text-right">Plata 929. <br> Acero blanco.</p> -->
+        <h2 class="featurette-heading text-right">Aros <!-- <span class="text-muted">It’ll blow your mind.</span> --></h2>
+        <p class="lead text-right">Plata 929. <br> Acero blanco.</p>
       </div>      
       <div class="col-md-6 carousel-inner fadeRight">
           <div class="carousel-item active">
-            <a href=""><img class="img-fluid mx-auto d-block w-100 fadeOut" width="500" height="500" src="img/indexBody/square/square1.png"></a>            
+            <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img  fadeOut" width="500" height="500" src="img/indexBody/square/square1.png"></a>
           </div>
           <!-- <div class="carousel-item">
             <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square1A.png"></a>
@@ -180,29 +153,15 @@
           <div class="carousel-item">
             <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square1B.png"></a>
           </div>      --> 
-          <div class="overlay d-flex align-items-end"> <!-- Descripcion y boton "Ver mas" -->
-            <div class="container">
-              <div class="row">
-                <div class="col d-flex justify-content-end pb-2">
-                  <div class="">
-                    <h2>Aros</h2>
-                    <div class="d-flex justify-content-center">
-                      <button type="button" class="btn-sawa btn-outline-light">Ver más</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>            
-          </div> <!-- Descripcion y boton "Ver mas" -->       
-      </div>    
+      </div>
     </div>
 
     <hr class="featurette-divider"> <!-- 2 -->
 
     <div class="row featurette carousel" data-ride="carousel" data-pause="false"> 
       <div class="col-md-6 order-md-2 fadeIn">
-        <!-- <h2 class="featurette-heading">Anillos</h2>
-        <p class="lead">Plata 929. <br> Acero blanco.</p> -->
+        <h2 class="featurette-heading">Anillos</h2>
+        <p class="lead">Plata 929. <br> Acero blanco.</p>
       </div>
       <div class="col-md-6 order-md-1 carousel-inner fadeLeft">
         <div class="carousel-item active">
@@ -213,21 +172,7 @@
         </div>
         <div class="carousel-item">
           <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square2B.png"></a>
-        </div>
-        <div class="overlay d-flex align-items-end"> <!-- Descripcion y boton "Ver mas" -->
-          <div class="container">
-            <div class="row">
-              <div class="col d-flex justify-content-start pb-2">
-                <div class="">
-                  <h2>Anillos</h2>
-                  <div class="d-flex justify-content-center">
-                    <button type="button" class="btn-sawa btn-outline-light">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>            
-        </div> <!-- Descripcion y boton "Ver mas" -->     
+        </div>      
       </div>
     </div>
 
@@ -235,8 +180,8 @@
 
     <div class="row featurette carousel" data-ride="carousel" data-pause="false">
       <div class="col-md-6 fadeIn">
-        <!-- <h2 class="featurette-heading text-right">Collares</h2>
-        <p class="lead text-right">Plata 929. <br> Acero blanco.</p> -->
+        <h2 class="featurette-heading text-right">Collares</h2>
+        <p class="lead text-right">Plata 929. <br> Acero blanco.</p>
       </div>
       <div class="col-md-6 carousel-inner fadeRight">
         <div class="carousel-item active">
@@ -247,21 +192,7 @@
         </div>
         <div class="carousel-item">
           <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square3B.png"></a>
-        </div> 
-        <div class="overlay d-flex align-items-end"> <!-- Descripcion y boton "Ver mas" -->
-          <div class="container">
-            <div class="row">
-              <div class="col d-flex justify-content-end pb-2">
-                <div class="">
-                  <h2>Collares</h2>
-                  <div class="d-flex justify-content-center">
-                    <button type="button" class="btn-sawa btn-outline-light">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>            
-        </div> <!-- Descripcion y boton "Ver mas" -->  
+        </div>  
       </div>
     </div>
 
@@ -269,8 +200,8 @@
 
     <div class="row featurette carousel" data-ride="carousel" data-pause="false"> 
       <div class="col-md-6 order-md-2 fadeIn">
-        <!-- <h2 class="featurette-heading">Tobilleras</h2>
-        <p class="lead">Plata 929. <br> Acero blanco.</p> -->
+        <h2 class="featurette-heading">Tobilleras</h2>
+        <p class="lead">Plata 929. <br> Acero blanco.</p>
       </div>
       <div class="col-md-6 order-md-1 carousel-inner fadeLeft">
         <div class="carousel-item active">
@@ -281,21 +212,7 @@
         </div>
         <!--<div class="carousel-item">
           <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square4B.png"></a>
-        </div>  --> 
-        <div class="overlay d-flex align-items-end"> <!-- Descripcion y boton "Ver mas" -->
-          <div class="container">
-            <div class="row">
-              <div class="col d-flex justify-content-start pb-2">
-                <div class="">
-                  <h2>Tobilleras</h2>
-                  <div class="d-flex justify-content-center">
-                    <button type="button" class="btn-sawa btn-outline-light">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>            
-        </div> <!-- Descripcion y boton "Ver mas" -->     
+        </div>  -->     
       </div>
     </div>
 
@@ -303,8 +220,8 @@
 
     <div class="row featurette carousel" data-ride="carousel" data-pause="false">
       <div class="col-md-6 fadeIn">
-        <!-- <h2 class="featurette-heading text-right">Cadenas</h2>
-        <p class="lead text-right">Plata 929. <br> Acero blanco.</p> -->
+        <h2 class="featurette-heading text-right">Cadenas</h2>
+        <p class="lead text-right">Plata 929. <br> Acero blanco.</p>
       </div>
       <div class="col-md-6 carousel-inner fadeRight">
         <div class="carousel-item active">
@@ -316,20 +233,6 @@
         <div class="carousel-item">
           <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square5B.png"></a>
         </div>      --> 
-        <div class="overlay d-flex align-items-end"> <!-- Descripcion y boton "Ver mas" -->
-          <div class="container">
-            <div class="row">
-              <div class="col d-flex justify-content-end pb-2">
-                <div class="">
-                  <h2>Cadenas</h2>
-                  <div class="d-flex justify-content-center">
-                    <button type="button" class="btn-sawa btn-outline-light">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>            
-        </div> <!-- Descripcion y boton "Ver mas" -->
       </div>
     </div>
 
@@ -337,8 +240,8 @@
 
     <div class="row featurette carousel" data-ride="carousel" data-pause="false"> 
       <div class="col-md-6 order-md-2 fadeIn">
-        <!-- <h2 class="featurette-heading">Pulseras</h2>
-        <p class="lead">Plata 929. <br> Acero blanco.</p> -->
+        <h2 class="featurette-heading">Pulseras</h2>
+        <p class="lead">Plata 929. <br> Acero blanco.</p>
       </div>
       <div class="col-md-6 order-md-1 carousel-inner fadeLeft">
         <div class="carousel-item active">
@@ -349,21 +252,7 @@
         </div>
         <!-- <div class="carousel-item">
           <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square2B.png"></a>
-        </div>  -->    
-        <div class="overlay d-flex align-items-end"> <!-- Descripcion y boton "Ver mas" -->
-          <div class="container">
-            <div class="row">
-              <div class="col d-flex justify-content-start pb-2">
-                <div class="">
-                  <h2>Pulseras</h2>
-                  <div class="d-flex justify-content-center">
-                    <button type="button" class="btn-sawa btn-outline-light">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>            
-        </div> <!-- Descripcion y boton "Ver mas" --> 
+        </div>  -->     
       </div>
     </div>     
 
@@ -371,8 +260,8 @@
 
     <div class="row featurette carousel" data-ride="carousel" data-pause="false">
       <div class="col-md-6 fadeIn">
-        <!-- <h2 class="featurette-heading text-right">Dijes</h2>
-        <p class="lead text-right">Plata 929. <br> Acero blanco.</p> -->
+        <h2 class="featurette-heading text-right">Dijes</h2>
+        <p class="lead text-right">Plata 929. <br> Acero blanco.</p>
       </div>
       <div class="col-md-6 carousel-inner fadeRight">
         <div class="carousel-item active">
@@ -384,20 +273,6 @@
         <div class="carousel-item">
           <a href="#"><img class="img-fluid mx-auto d-block w-100 featurette_img fadeOut" width="500" height="500" src="img/indexBody/square/square3B.png"></a>
         </div>      --> 
-        <div class="overlay d-flex align-items-end"> <!-- Descripcion y boton "Ver mas" -->
-          <div class="container">
-            <div class="row">
-              <div class="col d-flex justify-content-end pb-2">
-                <div class="">
-                  <h2>Dijes</h2>
-                  <div class="d-flex justify-content-center">
-                    <button type="button" class="btn-sawa btn-outline-light">Ver más</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>            
-        </div> <!-- Descripcion y boton "Ver mas" -->
       </div>
     </div>    
 
@@ -438,41 +313,5 @@
       -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="js/bootstrap.bundle.js"></script>
-<!-- agregados -->
-      <script src="js/jquery-migrate-3.0.0.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-      <script src="js/jquery.waypoints.min.js"></script>
-      <script src="js/jquery.stellar.min.js"></script>
-      <script src="js/jquery.animateNumber.min.js"></script>  
-      <script src="js/main.js"></script> 
-      <!-- Para hacer funcionar el swiper -->     
-      <script>
-        var mySwiper = new Swiper('.swiper-container', {
-        speed: 50,
-        spaceBetween: 10,
-        slidesPerView: 4,
-        efect:"slide",
-          breakpoints: {
-          '320': {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          '480': {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          '800': {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          }}
-      }); /*Tranisition effect. Could be "slide", "fade", "cube", "coverflow" or "flip"*/
-        
-        var mySwiper = document.querySelector('.swiper-container').swiper
-    
-        // Now you can use all slider methods like
-        mySwiper.slideNext();
-      </script>
 </body>
 </html>
