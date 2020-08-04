@@ -76,9 +76,15 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
   /* background-color:white;
   color: white; */
+  border-width:0;
+}
+.featurette-divider-4 {
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+  background-color:white;
+  color: white;
   border-width:0;
 }
 
@@ -137,7 +143,7 @@ body {
   color: white;
   
   letter-spacing: 0.1rem;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-family: sans-serif;
   line-height: 1.15;
 }
@@ -156,7 +162,7 @@ body {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.5rem 1.3rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.3rem;
   border-radius: 2rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
